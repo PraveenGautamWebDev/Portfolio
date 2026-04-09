@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #e5e5e5;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.connect {
+    text-decoration: none;
+    color: black;
+}

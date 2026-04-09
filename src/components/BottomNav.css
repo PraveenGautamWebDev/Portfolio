@@ -1,0 +1,35 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 28px;
+
+    padding: 11px 25px;
+    border-radius: 999px;
+
+    background: rgba(200, 200, 200, 0.6);
+    backdrop-filter: blur(12px);
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+
+    z-index: 999;
+}
+
+/* LINKS */
+.bottom-nav a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: 0.2s ease;
+}
+
+/* HOVER EFFECT */
+.bottom-nav a:hover {
+    color: black;
+    transform: translateY(-1px);
+}

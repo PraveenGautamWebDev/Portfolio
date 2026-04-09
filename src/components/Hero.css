@@ -1,0 +1,24 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background: #eaeaea;
+    height: 88vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hero-text h1 {
+    font-size: 10vw;
+    /* 🔥 makes it scale with screen */
+    font-weight: 400;
+    line-height: 0.9;
+    color: black;
+    margin: 0;
+}
+
+.hero-image img {
+    height: 90vh;
+    object-fit: cover;
+}
